@@ -168,7 +168,7 @@ void twoDimensionalArrays() {
 
     // TODO: Free the flat array with delete[] and set to nullptr
 
-    std::cout<<"Flate array freed(just one delete[]!)"<<'\n';
+    std::cout<<"Flat array freed(just one delete[]!)"<<'\n';
     delete[] flat;
     flat=nullptr;
 
