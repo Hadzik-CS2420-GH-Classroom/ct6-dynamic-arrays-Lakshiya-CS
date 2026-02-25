@@ -151,7 +151,7 @@ void newAndDelete() {
 
     // TODO: Print the value by dereferencing the unique_ptr (use * just like a raw pointer)
     // Expected output: "Smart value: 99"
-    std::cout<<"Smart Value: "<<*smartValue<<'\n';
+    std::cout<<"Smart value: "<<*smartValue<<'\n';
     // TODO: Create a unique_ptr to a dynamic array of 3 ints
     //       Hint: auto smartArray = std::make_unique<int[]>(3);
     //
@@ -216,8 +216,8 @@ void newAndDelete() {
     //   You can also std::move a shared_ptr — this transfers ownership
     //   without touching the ref count (faster than copying, since no
     //   atomic increment/decrement is needed).
-    std::cout<<"sharedA value:" <<*sharedA<<"\n";
-    std::cout<<"sharedB value:" <<*sharedB<<"\n";
+    std::cout<<"sharedA value: " <<*sharedA<<"\n";
+    std::cout<<"sharedB value: " <<*sharedB<<"\n";
     std::cout<<"Reference count: "<< sharedA.use_count()<<"\n";
     // TODO: Print the value through both pointers and the reference count
     // Expected output: "sharedA value: 77"
